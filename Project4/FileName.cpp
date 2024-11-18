@@ -57,7 +57,19 @@ int main()
 	ThemVaoGiuaDSDau(l, p3, p10);
 	Node* p11 = Taonode(111);
 	ThemVaoGiuaDSDau(l, p4, p11);
+	HuyDauDanhSach(l);
+	HuyDauDanhSach(l);
+	HuySau(l, p2);
+	HuySau(l, p3);
 	XuatDanhSach(l);
+	cout << "ket qua cua de quy 10 = " << Dequy(10) << endl;
+	
 
+
+	
+	for (int i = 0; i < 20; i++)
+	{
+		cout << DaySoFi(i) << "\t";
+	}
 
 }

@@ -27,4 +27,5 @@ bool SoAm(int n);
 bool SoNguyenTo(int n);
 int Timlengchar(char* a);
 void CopyChar(char*& destination, char* src);
-
+int Dequy(int n);
+long DaySoFi(int n);

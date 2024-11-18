@@ -380,3 +380,24 @@ void CopyChar(char*& destination, char* src)
 	}
 
 }
+
+int Dequy(int n)
+{
+	if (n == 0)
+	{
+		return 0;
+	}
+	return Dequy(n - 1) + n;
+}
+
+long DaySoFi(int n)
+{
+	if( n == 0 || n ==1)
+	{
+
+		return 1;
+	}
+	long kq = DaySoFi(n - 1) + DaySoFi(n - 2);
+	//cout << kq << "\t";
+	return kq;
+}

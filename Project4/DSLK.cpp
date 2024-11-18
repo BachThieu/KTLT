@@ -98,7 +98,7 @@ void ThemVaoGiuaDSDau(DSLK& l, Node* giua, Node* Add)
 		else
 		{
 			Node* i = l.phead;
-			while (i->pnext != giua)
+			while ( i != NULL && i->pnext != giua)
 			{
 				i = i->pnext;
 			}
@@ -107,5 +107,40 @@ void ThemVaoGiuaDSDau(DSLK& l, Node* giua, Node* Add)
 		}
 		
 		
+	}
+}
+
+void HuyDauDanhSach(DSLK &l)
+{
+	if (l.phead != NULL)
+	{
+		Node* p = l.phead;
+		l.phead= l.phead->pnext;
+		if (l.phead == NULL)
+		{
+			l.ptail = NULL;
+		}
+		delete p;
+		
+	}
+	
+	
+}
+
+void HuySau(DSLK& l, Node* p)
+{
+	if (p == NULL || p->pnext == NULL)
+	{
+		HuyDauDanhSach(l);
+
+	}
+	{
+		Node *q = p->pnext;
+		p->pnext = q->pnext;
+		if (q == l.ptail)
+		{
+			l.ptail = p;
+		}
+		delete q;
 	}
 }

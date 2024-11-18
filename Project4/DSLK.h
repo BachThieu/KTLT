@@ -17,3 +17,5 @@ void ThemVaoDauDS(DSLK& l, Node* node);
 void ThemVaoCuoiDs(DSLK& l, Node* node);
 void ThemVaoGiuaDS(DSLK& l, Node* giua, Node* Add);
 void ThemVaoGiuaDSDau(DSLK& l, Node* giua, Node* Add);
+void HuyDauDanhSach(DSLK &l);
+void HuySau(DSLK& l, Node* p);
