@@ -2,6 +2,7 @@
 #include "Ham.h"
 
 using namespace std;
+bool Dachon[100] = { 0 };
 
 void NhapMang(int*& a, int& n)
 {
@@ -18,9 +19,10 @@ void Xuatmang(int* p, int n)
 {
 	for (int i = 0; i < n; i++)
 	{
-		printf("gia tri cua a[%d] la %d \n", i, *(p + i));
+		printf("%d \t", *(p + i));
 
 	}
+	printf("\n");
 }
 float Bai122(float* arr, int n)
 {
@@ -401,3 +403,94 @@ long DaySoFi(int n)
 	//cout << kq << "\t";
 	return kq;
 }
+
+int TruyHoi(int n)
+{
+	if (n == 0)
+	{
+		return 2;
+	}
+	return 2 * TruyHoi(n - 1);
+}
+
+double GuiTien(int n)
+{
+	if (n == 0)
+	{
+		return 1000;
+	}
+	return 1.12 * GuiTien(n - 1);
+}
+
+int TimViTri(int* a, int n, int left, int right, int x)
+{
+	if (left > right)
+	{
+		return -1; // Khong tin thay
+	}
+
+	int mid = (left + right) / 2;
+	// Tim trong vi tri left, mid -1;
+	// Tim trong phan vi mid, mid
+	// Tim tron pham vi mid +1 , right;
+	if (a[mid] == x)
+	{
+		return mid;
+	}
+	if (x < a[mid])
+	{
+		return TimViTri(a, n, left, mid - 1,x);
+
+	}
+	return TimViTri(a, n, mid + 1, right, x);
+
+}
+
+void PhatSinhDayNhiPhan(int pos, int n, int * &a )
+{
+	if (pos == n)
+	{
+		Xuatmang(a, n);
+		return;
+	}
+	for (int i = 0; i <= 1; i++)
+	{
+		a[pos] = i;
+		PhatSinhDayNhiPhan(pos + 1, n, a);
+
+	}
+
+}
+
+void PhatSinhDayHoanVi(int pos, int n, int*& a)
+{
+	if (pos == n)
+	{
+		Xuatmang(a, n);
+		return;
+	}
+	for (int i = 1; i <= n; i++)
+	{
+		if (Dachon[i] == false)
+		{
+			a[pos] = i;
+			Dachon[i] = true;
+			PhatSinhDayHoanVi(pos + 1, n, a);
+			Dachon[i] = false;
+		}
+
+	}
+}
+
+void ChuyenDia(int n, char A, char B, char C)
+{
+	if (n <= 0)
+	{
+		return;
+	}
+	ChuyenDia(n - 1, A, C, B);
+	printf("Chuyen dia %d tuw cot %c sang cot %c \n", n, A, C);
+	ChuyenDia(n - 1, B, A, C);
+}
+
+

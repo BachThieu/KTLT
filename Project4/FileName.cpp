@@ -46,12 +46,12 @@ int main()
 	DSLK l;
 	Khoitao(l);
 	Node* p1 = Taonode(1);
-	Node* p2 = Taonode(2);
+	//Node* p2 = Taonode(2);
 	Node* p3 = Taonode(3);
 	Node* p4 = Taonode(40);
 	Node* p10 = Taonode(100);
 	ThemVaoDauDS(l,p1);
-	ThemVaoDauDS(l, p2);
+	//ThemVaoDauDS(l, p2);
 	ThemVaoDauDS(l, p3);
 	ThemVaoDauDS(l, p4);
 	ThemVaoGiuaDSDau(l, p3, p10);
@@ -59,17 +59,21 @@ int main()
 	ThemVaoGiuaDSDau(l, p4, p11);
 	HuyDauDanhSach(l);
 	HuyDauDanhSach(l);
-	HuySau(l, p2);
+	//HuySau(l, p2);
 	HuySau(l, p3);
-	XuatDanhSach(l);
-	cout << "ket qua cua de quy 10 = " << Dequy(10) << endl;
-	
-
-
-	
-	for (int i = 0; i < 20; i++)
+	//XuatDanhSach(l);
+	//cout << "ket qua cua de quy 10 = " << Dequy(10) << endl;
+	for (int i = 0; i < 10; i++)
 	{
-		cout << DaySoFi(i) << "\t";
+		//cout << DaySoFi(i) << "\t";
 	}
-
+	//cout << "Ket qua cua truy hoi la: " << TruyHoi(5);
+	//cout << "Ket qua cua gui tien la: " << GuiTien(30);
+	//int* a;
+	//int n;
+	//NhapMang(a, n);
+	int x = 10;
+	//cout<<"Vi tri cua phan tu la:"<<TimViTri(a, n, 0, n - 1, x);
+	///PhatSinhDayHoanVi(0, n, a);
+	ChuyenDia(3, 'A', 'B', 'C');
 }

@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Documents\\GitHub\\GitPJ4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{384B004A-78C3-4CC6-87E9-4E84394AE791}|Project4\\Project4.vcxproj|C:\\Users\\ADMIN\\Documents\\GitHub\\GitPJ4\\Project4\\Ham.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{384B004A-78C3-4CC6-87E9-4E84394AE791}|Project4\\Project4.vcxproj|solutionrelative:Project4\\Ham.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{384B004A-78C3-4CC6-87E9-4E84394AE791}|Project4\\Project4.vcxproj|C:\\Users\\ADMIN\\Documents\\GitHub\\GitPJ4\\Project4\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{384B004A-78C3-4CC6-87E9-4E84394AE791}|Project4\\Project4.vcxproj|solutionrelative:Project4\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{384B004A-78C3-4CC6-87E9-4E84394AE791}|Project4\\Project4.vcxproj|C:\\Users\\ADMIN\\Documents\\GitHub\\GitPJ4\\Project4\\Ham.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{384B004A-78C3-4CC6-87E9-4E84394AE791}|Project4\\Project4.vcxproj|solutionrelative:Project4\\Ham.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{384B004A-78C3-4CC6-87E9-4E84394AE791}|Project4\\Project4.vcxproj|C:\\Users\\ADMIN\\Documents\\GitHub\\GitPJ4\\Project4\\DSLK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{384B004A-78C3-4CC6-87E9-4E84394AE791}|Project4\\Project4.vcxproj|solutionrelative:Project4\\DSLK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DSLK.cpp",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\GitHub\\GitPJ4\\Project4\\DSLK.cpp",
+              "RelativeDocumentMoniker": "Project4\\DSLK.cpp",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\GitHub\\GitPJ4\\Project4\\DSLK.cpp",
+              "RelativeToolTip": "Project4\\DSLK.cpp",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-18T06:40:27.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ham.h",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\GitHub\\GitPJ4\\Project4\\Ham.h",
+              "RelativeDocumentMoniker": "Project4\\Ham.h",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\GitHub\\GitPJ4\\Project4\\Ham.h",
+              "RelativeToolTip": "Project4\\Ham.h",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-18T06:21:44.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileName.cpp",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\GitHub\\GitPJ4\\Project4\\FileName.cpp",
+              "RelativeDocumentMoniker": "Project4\\FileName.cpp",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\GitHub\\GitPJ4\\Project4\\FileName.cpp",
+              "RelativeToolTip": "Project4\\FileName.cpp",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAE0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-18T05:00:23.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ham.cpp",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\GitHub\\GitPJ4\\Project4\\Ham.cpp",
+              "RelativeDocumentMoniker": "Project4\\Ham.cpp",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\GitHub\\GitPJ4\\Project4\\Ham.cpp",
+              "RelativeToolTip": "Project4\\Ham.cpp",
+              "ViewState": "AQIAANUBAAAAAAAAAAAlwOYBAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-18T05:00:22.74Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
