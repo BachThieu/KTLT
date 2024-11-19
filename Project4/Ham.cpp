@@ -493,4 +493,37 @@ void ChuyenDia(int n, char A, char B, char C)
 	ChuyenDia(n - 1, B, A, C);
 }
 
+void GhiMang()
+{
+	int a[5] = { 1,2,3,4,10 };
+	int n = 5;
+
+	FILE* fp;
+	fopen_s(&fp,"C:\\Users\\ADMIN\\Documents\\Git\\KTLT\\KTLT\\test.bin","wb");
+	if (fp != NULL)
+	{
+		fwrite(&n, sizeof(int), 1, fp);
+		fwrite(a, sizeof(int), n, fp);
+		fclose(fp);
+	}
+	
+}
+
+void DocMang()
+{
+	int a[5] = { 1,2,3,4,10 };
+	int n;
+
+	FILE* fp;
+	fopen_s(&fp, "C:\\Users\\ADMIN\\Documents\\Git\\KTLT\\KTLT\\test.bin", "rb");
+	if (fp != NULL)
+	{
+		fread(&n, sizeof(int), 1, fp);
+		fseek(fp, -4, SEEK_CUR);
+		fread(a, sizeof(int), n, fp);
+		fclose(fp);
+		Xuatmang(a, n);
+	}
+}
+
 

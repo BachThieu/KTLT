@@ -75,5 +75,7 @@ int main()
 	int x = 10;
 	//cout<<"Vi tri cua phan tu la:"<<TimViTri(a, n, 0, n - 1, x);
 	///PhatSinhDayHoanVi(0, n, a);
-	ChuyenDia(3, 'A', 'B', 'C');
+	//ChuyenDia(3, 'A', 'B', 'C');
+	//GhiMang();
+	DocMang();
 }

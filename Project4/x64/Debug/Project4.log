@@ -1,2 +1,3 @@
-﻿  FileName.cpp
-  Project4.vcxproj -> C:\Users\ADMIN\Documents\GitHub\GitPJ4\x64\Debug\Project4.exe
+﻿  Ham.cpp
+C:\Users\ADMIN\Documents\Git\KTLT\KTLT\Project4\Ham.cpp(348,9): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  Project4.vcxproj -> C:\Users\ADMIN\Documents\Git\KTLT\KTLT\x64\Debug\Project4.exe

@@ -35,3 +35,5 @@ int TimViTri(int* a, int n,int left, int right, int x);
 void PhatSinhDayNhiPhan(int pos, int n,int * &a);
 void PhatSinhDayHoanVi(int pos, int n, int*& a);
 void ChuyenDia(int n, char A, char B, char C);
+void GhiMang();
+void DocMang();
